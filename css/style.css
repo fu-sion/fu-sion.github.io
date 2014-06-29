@@ -3,6 +3,22 @@
     background: none;
 }
 
+.navbar-brand {
+    line-height: 60px;
+    height: 60px;
+    padding-top: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar-nav > li > a {
+    line-height: 60px;
+    height: 60px;
+    padding-top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 /* Brand */
 .navbar-default .navbar-brand {
     color: #6e2993;
