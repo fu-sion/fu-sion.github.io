@@ -1,12 +1,120 @@
-.navbar-default{
+/* Header Bar */ 
+.navbar-default {
     background: none;
 }
 
+/* Brand */
 .navbar-default .navbar-brand {
-    color: #577;
-    font-weight: 700
+    color: #6e2993;
+    font-weight: 700;
 }
 
+.navbar-default .navbar-brand:hover {
+    color: #6e2993;
+}
+
+/* Links */
+.navbar-default .navbar-nav > li > a {
+    color: #aaa;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #383838;
+    box-shadow: inset 0px 0px 20px #d8d8d8;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #6e2993;
+    background: none;
+}
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #6e2993;
+    background: none;
+}
+
+/* Dropdown Caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #aaa;
+}
+
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #383838;
+}
+
+/* Dropdown Hover */
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+}
+
+.navbar .sub-menu:before {
+    border-bottom: 7px solid transparent;
+    border-left: none;
+    border-right: 7px solid rgba(0, 0, 0, 0.2);
+    border-top: 7px solid transparent;
+    left: -7px;
+    top: 10px;
+}
+.navbar .sub-menu:after {
+    border-top: none;
+    border-left: none;
+    border-right: 6px solid #fff;
+    border-bottom: 6px solid transparent;
+    left: 10px;
+    top: 11px;
+    left: -6px;
+}
+
+/* Dropdown Menu */ 
+.dropdown-menu > li > a {
+    color: #aaa; 
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #383838;
+    box-shadow: inset 0px 0px 20px #d8d8d8;
+}
+
+.dropdown-menu > .active > a, 
+.dropdown-menu > .active > a:hover, 
+.dropdown-menu > .active > a:focus {
+    color: #6e2993;
+    background: none;
+}
+
+.dropdown-menu {
+    border-top: 3px solid transparent;
+    box-shadow: none;
+}
+
+/* Fonts */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab';
 }
