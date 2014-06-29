@@ -2,8 +2,9 @@
     background: none;
 }
 
-.navbar-fixed-top{
-    border-bottom: 0px;
+.navbar-default .navbar-brand {
+    color: #577;
+    font-weight: 700
 }
 
 h1, h2, h3, h4, h5, h6 {
