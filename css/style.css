@@ -4,6 +4,7 @@
 }
 
 .navbar-brand {
+    font-size:large;
     line-height: 60px;
     height: 60px;
     padding-top: 0;
@@ -135,15 +136,12 @@ p, div {
     font-family: 'Roboto Slab';
 }
 
-/* Dropdown Centering */
-document.onreadystatechange = function() {
-    if (document.readyState === 'complete') {
-        $("ul.ww-nav ul.dropdown-menu").each(function(){
-            var parentWidth = $(this).parent().innerWidth();
-            var menuWidth = $(this).innerWidth();
-            var margin = (parentWidth / 2 ) - (menuWidth / 2);
-            margin = margin + "px";
-            $(this).css("margin-left", margin);
-        });
-    }
+/* Centering */
+@media (min-width: 768px){
+.navbar-nav{
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float:none;
+}
 }
