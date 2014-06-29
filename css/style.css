@@ -54,6 +54,12 @@
     border-top-color: #6e2993;
 }
 
+.navbar-default .navbar-nav > .open > a
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    box-shadow: none;
+}
+
 /* Dropdown Menu */ 
 .dropdown-menu > li > a {
     color: #aaa; 
